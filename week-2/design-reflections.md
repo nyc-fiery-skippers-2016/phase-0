@@ -19,4 +19,4 @@ What is user experience design and why is it valuable?
 User experience design focuses on the user. It's not just about making cool stuff and impressing a client. Design that's user-friendly, literally. UX is valuable because it ensures things can be accessed in myriad ways by people with physical and/or environmental limitations. It takes into account users with limited access to broadband, using outdated mobile devices, etc. UX helps keep the world-wide web more wordly, and broadens markets.
 
 Which parts of the challenge did you find tedious?
-Uploading the photo of my site-map to my computer. I couldn't get my Airdrop to work, and still not sure why! Also, I'm having a hard time at the moment figuring out how to get this thing to git.
+Uploading the photo of my site-map to my computer. I couldn't get my Airdrop to work, and still not sure why! I had a hard time figuring out how to synch and push to GitHub repo. My image isn't showing up in the reflection. It says Alt text, and when I click on it, it opens to a 404 error page. 
