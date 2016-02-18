@@ -1,6 +1,6 @@
-![Alt text](/imgs/wire-frame.png)
+![Alt text](imgs/wire-frame.png)
 
-![Alt text](/imgs/wireframe-blog-index.png)
+![Alt text](imgs/wireframe-blog-index.png)
 
 What is a wireframe? What are the benefits of wireframing?
 
