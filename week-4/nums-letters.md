@@ -45,4 +45,6 @@ A variable stores a string or number in your computer's memory. This allows you 
 Refreshing!
 
 ##Links to challenges:
-
+https://github.com/psmathers/phase-0/blob/master/week-4/defining-variables.rb
+https://github.com/psmathers/phase-0/blob/master/week-4/simple-string.rb
+https://github.com/psmathers/phase-0/blob/master/week-4/basic-math.rb
