@@ -1,0 +1,45 @@
+header {
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+header, footer {
+  color: yellow;
+}
+
+section {
+  background-color: gray;
+}
+
+.column-1 {
+  float: left;
+  width: 48%;
+  /* margin-right: .5em; */
+}
+
+.column-1 h2 {
+  color: red;
+}
+
+.column-2 {
+  float: right;
+  width: 48%;
+}
+
+footer {
+  background-color: yellowgreen;
+  clear: both;
+}
+
+a:link {
+  color: silver;
+}
+
+a:active {
+  background-color: white;
+}
+
+a:visited {
+  border: 1px solid black;
+}
