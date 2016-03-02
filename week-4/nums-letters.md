@@ -19,3 +19,30 @@ puts 365 * 24
 ```
 puts 10 * 365 * 24 * 60
 ```
+
+* How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+
+Same as a calculator, but without decimal values.
+
+* What is the difference between integers and floats?
+
+see above
+
+* What is the difference between integer and float division?
+
+see above
+
+* What are strings? Why and when would you use them?
+
+Strings are groups of letters in a program.
+
+* What are local variables? Why and when would you use them?
+
+A variable stores a string or number in your computer's memory. This allows you to save them and use them later in your program.
+
+* How was this challenge? Did you get a good review of some of the basics?
+
+Refreshing!
+
+##Links to challenges:
+
