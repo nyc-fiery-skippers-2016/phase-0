@@ -1,4 +1,4 @@
-# Calculate a Grade
+i# Calculate a Grade
 
 # I worked on this challenge with David.
 
