@@ -20,12 +20,12 @@ def shortest_string(list_of_words)
   else
   	shortest = ""
   	list_of_words.each { |word|
-		if word.length > shortest.length
-			shortest = word
-			return shortest
-		else
-			return shortest
-		end
+  		if word.length > shortest.length
+  			shortest = word
+  			return shortest
+  		else
+  			return shortest
+  		end
   	}
   end
 end
