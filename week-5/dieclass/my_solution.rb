@@ -37,7 +37,7 @@ end
 
 
 
-# 3. Refactored Solution = same as initial
+# 3. Refactored Solution = The initial way works
 
 
 
@@ -57,13 +57,13 @@ What is a Ruby class?
 a blueprint from which objects are created, for example a bicycle.
 
 Why would you use a Ruby class?
-so you don't have to reinvent the bicycle every time.
+so you don't have to reinvent the bicycle every time! A bicycle comes with a bunch of working parts, as does a Ruby class.
 
 What is the difference between a local variable and an instance variable?
 an instance variable is within a class, a local variable is within an object.
 
 Where can an instance variable be used?
-
+Within the class that instance variable belongs to
 
 	
 =end
