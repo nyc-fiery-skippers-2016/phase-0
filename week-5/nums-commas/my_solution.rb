@@ -53,15 +53,37 @@ end
 
 # 2. Refactored Solution
 def separate_comma(num)
-	comma_num = num.to_s
-	if comma_num.length >= 3
-		comma_num
-	elsif comma_num.length >= 4 && comma_num.length <= 6
-		comma_num.insert(-3, ",")
-	elsif comma_num.length >= 7 && comma_num.length <= 8
-		comma_num.insert(-3, -6, ",")
+	if num < 1000
+		num.to_s
+	elsif num > 999 && num < 10000
+		/^\d{1},\d{3}$/
+	elsif num > 9999 && num < 100000
+		/^\d{2},\d{3}$/
+	elsif num > 99999 && num < 1000000
+		/^\d{3},\d{3}$/
+	elsif num > 999999 && num < 10000000
+		/^\d{1},\d{3},\d{3}$/
+	else
+		/^\d{2},\d{3},\d{3}$/	
 	end
 end
 
 
 # 3. Reflection
+=begin
+What was your process for breaking the problem down? What different approaches did you consider?
+This challenge was confusing to me because it asked for integer as a string.
+So I tried converting the number to string and adding commas.
+
+Was your pseudocode effective in helping you build a successful initial solution?
+The solution was right but not the right answer, if that makes sense.
+
+What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
+Ruby documentation completely changed my answer. I don't if my initial misunderstanding was a matter of semantics. My question is, what the difference between returning an "integer as a string" and "a string with numbers in it"?
+
+How did you initially iterate through the data structure?
+I used else/if for both.
+
+Do you feel your refactored solution is more readable than your initial solution? Why?
+Once you know what /^, \d, {1}, etc are saying, the refactored solution is slightly more readable.
+=end
