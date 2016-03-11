@@ -73,3 +73,26 @@ end
 
 
 # 4. Reflection
+=begin
+Which data structure did you and your pair decide to implement and why?
+We used a combination of hash and array. The hash data structure allowed us to keep track of the element as a key, and its recurrence as value.
+
+Were you more successful breaking this problem down into implementable pseudocode than the last with a pair? 
+I haven't worked on 5.2 yet.
+
+What issues/successes did you run into when translating your pseudocode to code?
+We were successful with our initial solution except we were ending up with an empty array. We got rid of the empty array by adding array.sort! at the end and then returning the array.
+
+What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+We iterated through the array using each method. For our hash, we used the methods values.reverse! and values.max. We used push to add keys to array. One of the main challenges was toggling between arrays and hashes in arriving at our solution.
+	
+
+
+
+
+
+
+
+
+
+=end
