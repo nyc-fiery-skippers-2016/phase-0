@@ -76,11 +76,20 @@ p remove_item(my_list, "Lemonade")
 p update_item(my_list, "Ice Cream", 1)
 print(my_list)
 
+#Reflect
 
-
-
-
-
+# What did you learn about pseudocode from working on this challenge?
+# > Pseudocode can also be a conversation between two people, walking through each step of the process.
+# What are the tradeoffs of using Arrays and Hashes for this challenge?
+# > Hash keeps track of the quantity. Array doesn't.
+# What does a method return?
+# > The last return value.
+# What kind of things can you pass into methods as arguments?
+# > Array, string, number, hash, and other objects.
+# How can you pass information between methods?
+# > A method can pick up the return value of the method preceding it.
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+# > I'm still trying to wrap my head around hashes and passing in and working with key:value pairs.
 
 
 
