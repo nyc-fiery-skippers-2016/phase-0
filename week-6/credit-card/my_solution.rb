@@ -42,17 +42,6 @@ class CreditCard
 				if i.even? then (x * 2) else x end
 			end
 		end
-		# a = []
-		# new_array.map do |x, i|
-		# 	if x == 0
-		# 		a << new_array[i]
-		# 	elsif x % 2 == 0 #no implicit conversion from nil to integer (TypeError)
-		# 		a << (new_array[i] * 2)
-		# 	else
-		# 		a << new_array[i]
-		# 	end
-		# 	a
-		# end
 
 		# step 2
 		def split(new_arr)
