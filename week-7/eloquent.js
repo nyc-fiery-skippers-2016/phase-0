@@ -58,7 +58,7 @@ console.log(tree);
 
 // The Javascript book says that "while" and "for" loops are exactly the same (for numbers) except that "for" is more succinct. So why, using strings instead, do the following return differently??
 
-var num = "#";
+var num = "";
 while (num.length < 8) {
   num += "#";
   console.log (num);
