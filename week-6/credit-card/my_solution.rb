@@ -31,38 +31,42 @@ class CreditCard
 	end
 
 	def double_evens
-		arr = @card_number.to_s.split('')
+		evens_arr = @card_number.to_s.split('')
 		@new_arr = []
-		arr.each { |x| new_arr << x.to_i }
-		new_arr.map!.with_index do |x, i|
+		evens_arr.each { |x| @new_arr << x.to_i }
+		@new_arr.map!.with_index do |x, i|
 			if i.even? then (x * 2) else x end
 		end
 	end
 
 	def split
 		@new_arr.each do |x|
-			if x > 9 then (x.to_s.split('').to_i) else x end
-			@a << x
+			@split_arr = []
+			if x > 9 
+				@split_arr << (x.to_s.split('')) 
+			else x
+				@split_arr  << x
+			end
+			@split_arr 
 		end
 	end
-
-	def valid?(a)
-		@a.each { |x| sum += x }
+	
+	def validate
 		sum = 0
-		valid?()
+		@split_arr .each { |x| sum += x }
 		if sum % 10 == 0 then true else false end
 	end
-	
+
 	def check_card
 		double_evens
 		split
-		valid?(a)
+		validate
 	end
 end
 
 card_number = 4408041234567906
 card = CreditCard.new(card_number)
-p card.check_card
+card.check_card
 
 
 # Refactored Solution
