@@ -24,50 +24,48 @@
 class CreditCard
 
 	def initialize(card_number)
-		if card_number.to_s.length == 16
-			@card_number = card_number
-		else
+		if card_number.to_s.length != 16	
 			raise ArgumentError.new("Invalid credit card number")
+		end
+		@card_number = card_number
+	end
+
+	def double_evens
+		arr = @card_number.to_s.split('')
+		@new_arr = []
+		arr.each { |x| new_arr << x.to_i }
+		new_arr.map!.with_index do |x, i|
+			if i.even? then (x * 2) else x end
 		end
 	end
 
-	def check_card
-
-		# step 1
-		def double_evens(card_number)
-			arr = card_number.to_s.split('')
-			new_arr = []
-			arr.each { |x| new_arr << x.to_i }
-			new_arr.map!.with_index do |x, i|
-				if i.even? then (x * 2) else x end
-			end
+	def split
+		@new_arr.each do |x|
+			if x > 9 then (x.to_s.split('').to_i) else x end
+			@a << x
 		end
+	end
 
-		# step 2
-		def split(new_arr)
-			new_arr.each do |x|
-				if x > 9 then (x.to_s.split('').to_i) else x end
-				a << x
-			end
-			a
-		end
-
-		# step 3
+	def valid?(a)
+		@a.each { |x| sum += x }
 		sum = 0
-		def valid?(a)
-			a.each { |x| sum += x }
-		end
+		valid?()
 		if sum % 10 == 0 then true else false end
+	end
+	
+	def check_card
+		double_evens
+		split
+		valid?(a)
 	end
 end
 
-card_number = 4563960122001999
+card_number = 4408041234567906
 card = CreditCard.new(card_number)
 p card.check_card
 
 
 # Refactored Solution
-
 
 
 
