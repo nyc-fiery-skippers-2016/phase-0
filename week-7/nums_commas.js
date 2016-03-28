@@ -16,14 +16,13 @@
 
 // Initial Solution
 function separateComma(num) {
-	if num < 1000 {
-		return num
-	} else {
-		return num_str = num.toString();
-	}
+	var num_arr = num.toString().split('');
+	num_arr.splice(-3, 0, ",");
+	var comma1 = (num.toString().split('').length) % 3;
+	num_arr.splice(comma1, 0, ",");
+	console.log(num_arr.join(''));
 }
 separateComma(1569743)
-
 
 // Refactored Solution
 
@@ -36,3 +35,7 @@ separateComma(1569743)
 
 
 // Reflection
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently? it was much harder for me to use if/else in the solution. Right now the problem adds commas to numbers greater than 999 and less 1 mil
+// What did you learn about iterating over arrays in JavaScript? Javascript has a limited amount of tools for iterating
+// What was different about solving this problem in JavaScript? I didn't use shorthand notation so the problem was more complex
+// What built-in methods did you find to incorporate in your refactored solution? splice and join
