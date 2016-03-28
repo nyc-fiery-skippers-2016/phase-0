@@ -67,15 +67,17 @@ console.log("Bookworm's change is:")
 
 
 // subtract 3 fives from the drawer
-function modify_qty(val) {
-    var new_qty = cashDrawer.fives - val;
+// function modify_qty(val) {
+//     var new_qty = cashDrawer.fives - val;
     
-    if (new_qty <= 0) {
-        new_qty = 0;
-    }
-    return new_qty;
-}
-console.log(modify_qty(6))
+//     if (new_qty <= 0) {
+//         new_qty = 0;
+//     }
+//     return new_qty;
+// }
+// console.log(modify_qty(6))
+
+
 
 // def var drawerIterator, iterate through each bill and coin:
 // "How many [twenties]?"
@@ -83,12 +85,13 @@ console.log(modify_qty(6))
 // elsif number of twenties is less than or equal to number in the cash drawer, add those to the change_counter
 // else (number of twenties is greater than number in drawer) add the number in drawer to total
 
-var drawerIterator(cashDrawer) {
 
-}
 
 // Reflection
-//
+//What was the most difficult part of this challenge? This was a hard challenge to complete within a week's time. Talking to other people and seeing other people's examples, I realize other people struggled with it, devising something that functioned like an actual game.
+// What did you learn about creating objects and functions that interact with one another? This a complicated task. I picked something that I thought would be simple, making correct change. But didn't get very far.
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work? Not really. I couldn't find the javascript equivalent of ruby's get.chomp.
+// How can you access and manipulate properties of objects? I'm finding the syntax of Javascript hard to think in, objects aren't as easy to work with as in ruby.
 //
 //
 //
