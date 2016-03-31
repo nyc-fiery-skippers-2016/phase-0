@@ -2,8 +2,8 @@
 Gradebook from Names and Scores
 /*
 Gradebook from Names and Scores
-I worked on this challenge [by myself, with:]
-This challenge took me [#] hours.
+I worked on this challenge with Dexter
+This challenge took me 2.5 hours.
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
 variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
@@ -28,7 +28,7 @@ for (var i = 0; i < students.length; i++) {
     gradebook[students[i]].testScores = scores[i]; 
 }
 
-gradebook.addScore = function addscore(name, score){
+gradebook.addScore = function addScore(name, score){
   return gradebook[name].testScores.push(score);
 }
 
@@ -122,8 +122,14 @@ for (var i = 0; i < students.length; i++){
 
 // __________________________________________
 // Reflect
-
-
+/*
+What did you learn about adding functions to objects?
+  You append the function name to the object it's in, then set this equal to the function, function name, and parameter(s) being
+How did you iterate over nested arrays in JavaScript?
+  for (var i = 0; i < students.length; i++)
+Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+  We defined a function (average) outside a function (getAverage) and used it within the latter.
+*/
 
 
 
