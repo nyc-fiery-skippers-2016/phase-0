@@ -1,1 +1,1 @@
-![alt text](screenshots/outfits.png "Outfits schema")
+![alt text](outfits.png "Outfits schema")
