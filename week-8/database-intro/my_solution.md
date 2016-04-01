@@ -1,0 +1,1 @@
+![alt text](screenshots/outfits.png "Outfits schema")
