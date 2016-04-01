@@ -1,6 +1,6 @@
 ![alt text](outfits.png "Outfits schema")
 
-<!-- What are databases for?
+What are databases for?
 Storing data
 
 What is a one-to-many relationship?
@@ -13,4 +13,4 @@ A foreign key in a second table refers to a primary key in an initial table
 
 How can you select information out of a SQL database? What are some general guidelines for that? 
 SELECT * FROM table_name... selects all records in a table
-SELECT * field_name FROM table_name... selects table data contained in a specific column-->
+SELECT * field_name FROM table_name... selects table data contained in a specific column
