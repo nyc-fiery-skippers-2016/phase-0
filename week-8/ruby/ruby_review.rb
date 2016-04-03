@@ -39,3 +39,6 @@ p super_fizzbuzz([30, 9, 20, 1])
 
 
 # Reflection
+# What concepts did you review or learn in this challenge? I reviewed either/or and permanently changing elements in an array.
+# What is still confusing to you about Ruby? I'm pretty comfortable with it. Return values are still a little fuzzy.
+# What are you going to study to get more prepared for Phase 1? Work more with iterating.
